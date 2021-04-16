@@ -1,1 +1,2 @@
-# Next_meal
+# Next_Meal
+The code is using C++11 language. It provides a brief idea of how our project "next_meal" is running and implementing conversations with clients. However, some parts are omitted for simplicity and detailed information is included in '<hack>'. To run the code, simply press the run button using any kind of C++ compiler. If there is any problem, feel free to contact ywangjw@connect.ust.hk.
