@@ -40,10 +40,10 @@ int main()
     
     int R1_reservation[14] = {0, 2, 5, 8, 7, 1, 0, 8, 11, 7, 2, 0, 0, 0};
     int R1_estimation[14] = {3, 5, 10, 18, 16, 8, 2, 12, 16, 20, 19, 10, 3, 0};
-    int R2_reservation[14] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-    int R2_estimation[14] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-    int R3_reservation[14] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-    int R3_estimation[14] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+    int R2_reservation[14] = {0, 4, 10, 18, 22, 5, 0, 6, 10, 17, 8, 1, 0, 0};
+    int R2_estimation[14] = {0, 6, 20, 25, 21, 17, 3, 16, 26, 34, 30, 22, 6, 0};
+    int R3_reservation[14] = {0, 1, 2, 5, 7, 3, 0, 0, 6, 7, 0, 0, 0, 0};
+    int R3_estimation[14] = {0, 1, 3, 8, 7, 11, 4, 2, 1, 5, 10, 14, 3, 0};
     Restaurant R1("A", 20, 4, R1_reservation, R1_estimation);
     Restaurant R2("B", 40, 6, R2_reservation, R2_estimation);
     Restaurant R3("C", 15, 2, R3_reservation, R2_estimation);
@@ -87,8 +87,6 @@ int main()
     }
     else
     {
-        
-
         int time = 0;
         cout << "When do you want to arrive: (Enter a number between 9 to 22) ";
         cin >> time;
